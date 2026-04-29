@@ -1,0 +1,20 @@
+{
+  "name": "careerforge-pro",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run dev:client\" \"npm run dev:server\"",
+    "dev:client": "cd careerforge-pro && npm start",
+    "dev:server": "cd careerforge-backend && npm run dev",
+    "start": "concurrently \"npm run start:client\" \"npm run start:server\"",
+    "start:client": "cd careerforge-pro && npm start",
+    "start:server": "cd careerforge-backend && npm start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "concurrently": "^9.2.1"
+  }
+}
