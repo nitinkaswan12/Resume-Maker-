@@ -39,4 +39,4 @@ cd careerforge-pro
 npm install
 npm start
 ```
-By default, the frontend will be accessible at [http://localhost:3000](http://localhost:3000).
+By default, the frontend will be accessible at [http://localhost:3000](http://localhost:3001/).
